@@ -14,12 +14,12 @@ const NavBar = () => {
                     ))}
                 </ul>
 
-                <div className="flex-center gap-3">
+                <div className="flex items-center gap-5 sm:gap-7 max-sm:justify-end max-sm:flex-1 mr-4 lg:mr-8">
                     <button>
-                        <img src="/search.svg" alt="Search" />
+                        <img src="/search.svg" alt="Search" width={18} height={18} />
                     </button>
                     <button>
-                        <img src="/cart.svg" alt="Cart" />
+                        <img src="/cart.svg" alt="Cart" width={18} height={18} />
                     </button>
                 </div>
             </nav>
